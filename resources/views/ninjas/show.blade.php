@@ -5,11 +5,6 @@
         <title>Ninja Network</title>
     </head>
     <body>
-        <h1>Welcome to the Ninja Network</h1>
-        <p>Click the button to view the list of ninjas.</p>
-
-        <a href="/ninjas" class="btn">
-            Find Ninjas!
-        </a>
+        <h2>Ninja Id - {{ $id }}</h2>
     </body>
 </html>
