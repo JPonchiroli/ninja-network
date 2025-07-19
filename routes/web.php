@@ -13,7 +13,7 @@ Route::get('/ninjas', function () {
 
     ];
 
-    return view('ninjas.index', ["greeting" => "Hello", "ninjas" => $ninjas]);
+    return view('ninjas.index', ["greeting" => "hello", "ninjas" => $ninjas]);
 });
 
 Route::get('/ninjas/{id}', function ($id) {
