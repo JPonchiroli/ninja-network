@@ -8,8 +8,8 @@ Route::get('/', function () {
 
 Route::get('/ninjas', function () {
     $ninjas = [
-        ["id" => "1", "name" => "Naruto", "skill" => "Ninjutsu"],
-        ["id" => "2", "name" => "Sasuke", "skill" => "Sharingan"],
+        ["id" => "1", "name" => "Naruto", "skill" => 75],
+        ["id" => "2", "name" => "Sasuke", "skill" => 65],
 
     ];
 
